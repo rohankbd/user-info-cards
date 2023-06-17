@@ -24,6 +24,7 @@ function Task2Page() {
   return (
     <div>
       <div className="grid grid-cols-2 gap-4">
+        <h1>Task 2 Page</h1>
         {users.map((user) => (
           <Link key={user.id} to={`/task3/${user.id}`}>
             <div className="card">
