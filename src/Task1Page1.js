@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './styles.css';
 
-function Task1Page() {
+function Task1Page1() {
   const [counter, setCounter] = useState(0);
   const [backgroundColor, setBackgroundColor] = useState('yellow');
   const [duplicatedCircles, setDuplicatedCircles] = useState([]);
@@ -70,4 +70,4 @@ function Task1Page() {
   );
 }
 
-export default Task1Page;
+export default Task1Page1;
